@@ -1,0 +1,140 @@
+body{
+    background-color: rgb(237, 237, 237);
+}
+
+*{
+    margin: 0;
+}
+
+.navigacija{
+    background-color: rgb(52, 52, 52);
+
+}
+
+
+.dezute a{
+    width: 200px;
+    background-color: rgb(224, 71, 0);
+    padding: 5px;
+    position: relative;
+    left: 10%;
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#soundas{
+    float: left;
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tekstas{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    bottom: 400px;
+    left: 100px;
+
+}
+
+h2{
+    padding: 10px;
+    font-family: lato;
+}
+
+.Mygtukas{
+    position: relative;
+    top: 35px;
+    left: 12px;
+    background-color: rgb(243, 118, 0);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    width: 400px;
+    height: 65px;
+    cursor: unset;
+}
+
+.linija{
+    position: relative;
+    bottom: 220px;
+    background-image: linear-gradient(to right, purple, tomato);
+    width: 1640px;
+    height: 10px;
+}
+
+.kontaineris{
+    position: relative;
+    bottom: 220px;
+    margin: 0 auto;
+    background-color: white;
+    width: 1640px;
+    height: 600px;
+}
+
+.tekstas1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    color: rgb(33, 33, 33);
+    font-size: 25px;
+    
+}
+
+.linija2{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    background-image: linear-gradient(to right, purple, tomato);
+    width: 100px;
+    height: 3px;
+}
+
+#tekstas3{
+    position: relative;
+    top: 20px;
+    left: 50px;
+    font-size: 25px;
+    font-family: lato;
+    margin: 10px 0px;
+}
+
+
+footer{
+    position: relative;
+    bottom: 220px;
+    margin: 0px auto;
+    background-color: white;
+    width: 1640px;
+    min-height: 150px;
+    
+}
+
+.paskutinis{
+    color: rgb(192, 192, 192);
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+hr{
+    color: rgb(192, 192, 192);
+    width: 1550px;
+}
+
+footer p{
+    padding: 10px;
+}
